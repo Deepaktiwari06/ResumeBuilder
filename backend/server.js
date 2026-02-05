@@ -29,7 +29,7 @@ app.use(
   '/uploads',
   express.static(path.join(__dirname, '/uploads'), {
     setHeaders: (res, path) => {
-      res.set('Access-Control-Allow-Origin', 'http://localhost:5173/')
+      res.set('Access-Control-Allow-Origin', 'https://resumebuilder-frontend-u25m.onrender.com')
     }
   })
 );
