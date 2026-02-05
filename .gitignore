@@ -44,10 +44,10 @@ backend/.env
 # Ignore uploaded images / PDFs
 backend/uploads/*
 backend/thumbnails/*
-*.pdf
-*.png
-*.jpg
-*.jpeg
+# *.pdf
+# *.png
+# *.jpg
+# *.jpeg
 
 # BUT keep backend upload middleware (CRITICAL)
 !backend/uploads/uploadImages.js
