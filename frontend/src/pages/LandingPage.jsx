@@ -75,7 +75,7 @@ const LandingPage = () => {
                                         navigate('/dashboard')
                                         setMobileMenuOpen(false);
                                     }}
-                                    Go To Dashboard
+                                    Go To Dashboard 
                                 </button>
                             </div>
                         ) : (
@@ -287,7 +287,7 @@ const LandingPage = () => {
                                 </span>
                             </h2>
                             <p className={landingPageStyles.ctaDescription}>
-                                Join Thousand of professional who landed yheir dream jobs with our platform
+                                Join Thousand of professional who landed their dream jobs with our platform
                             </p>
 
                             <button className={landingPageStyles.ctaButton} onClick={handleCTA}>
