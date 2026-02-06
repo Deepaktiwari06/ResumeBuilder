@@ -70,11 +70,11 @@ const LandingPage = () => {
                                 <div className={landingPageStyles.mobileUserWelcome}>
                                     Welcome back
                                 </div>
-                                <button className={landingPageStyles.mobileDashboardButton}>
+                                <button className={landingPageStyles.mobileDashboardButton}
                                     onClick={() => {
                                         navigate('/dashboard')
                                         setMobileMenuOpen(false);
-                                    }}
+                                    }}>
                                     Go To Dashboard 
                                 </button>
                             </div>
